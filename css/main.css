@@ -134,10 +134,6 @@ menu{
 }
 .container-richt{
     margin-left: 250px;
-    overflow: hidden;
-
-
-
 }
 .row-niks1{
     width: auto;
@@ -225,12 +221,6 @@ menu{
     flex-direction: column;
     justify-content: center;
 }
-
-
-#down, #downie {
-    margin-top: 100%;
-    padding-bottom: 25%;
-   } 
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
@@ -322,7 +312,7 @@ ul li {
 ul li:last-child {
 	margin-bottom: 0;
 }
-@keyframes animateList {
+/* @keyframes animateList {
 	from {
 		margin-top: -60px;
 		opacity: 0;
@@ -331,7 +321,7 @@ ul li:last-child {
 		margin-top: 0;
 		opacity: 1;
 	}
-}
+} */
 
 /* Item links styles and hover effect*/
 ul li a {
@@ -468,14 +458,113 @@ strong{
 }
 .contackt-left-page{
     width: 50%;
+    
 
 }
-.contack-richt-page{
 
-}
 .formalier{
     width: 50%;
-    background-color: #10151A;
-    width: 600px;
-    height: 400px;  
+    background-color: #131a20;
+    width: 360px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column; 
+    border-radius:  16px;
 }
+.formalier-email{   
+    height: 50px;
+    width: 200px;
+    background-color: #10151A;
+}
+input[type="text"]{
+    width: 200px;
+    padding: 20px 120px 20px 10px;
+    background-color: #FF720B;
+    border-radius:  16px;
+    border: #000000 1px solid;
+    margin-left: 60px;
+    color: #fff;
+}
+.input-first-name{
+    width: 250px;
+    color: #fff;
+}
+.input-text{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    color: #fff;
+}
+label{
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .js {
+        background-color: #10151A;
+        outline: 0;
+        margin-right: 0px;
+        margin-bottom: 0px ;
+        color: #fff;
+        border: 0;
+        border-radius: 0px;
+        font-size: 2em;
+        font-size: 20px;
+        position: fixed;
+        margin-left: 90vw;
+        margin-top: px;
+         
+        
+        transition: 0.15s ease-in-out;
+        cursor: pointer;
+        font-family: 'Mate SC', serif;
+    }
+
+    .container-richt {
+        margin-left: 30px;
+    }
+
+    .jop {
+        margin-left: 17px;
+        font-size: 30px;
+    }
+
+    .soft {
+        margin-left: 17px;
+        font-size: 30px;
+    }
+    strong{
+        font-size: 25px;
+    }
+    .foto{
+        height: 600px;
+        width: auto;
+        margin-left: 70px;
+    }
+    .contack-left{
+        font-size: 25px;
+    }
+    .contakt-recht{
+        margin-left: 0px;
+        width: 0px;
+    }
+    .nijmegen-foto{
+        display: none;
+    }
+    .about-me{
+        width: 1200px;
+    }
+    .about-me-recht{
+        display: none;
+    }
+    .formalier{
+        margin-left: 50px;
+        
+    }
+    .contackt-left-page{
+            }
+  }
+
+ 
+
+
